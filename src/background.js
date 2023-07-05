@@ -10,6 +10,13 @@ protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
 ])
 
+/**
+ * @description: 隐藏菜单栏
+ */
+Menu.setApplicationMenu(false)
+/**
+ * @description: 隐藏菜单栏
+ */
 
 
 async function createWindow() {
