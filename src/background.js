@@ -1,5 +1,7 @@
 'use strict'
 
+const path = require('path');
+import { session } from 'electron';
 import { app, protocol, BrowserWindow, Menu } from 'electron'
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
 import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
@@ -71,6 +73,8 @@ app.on('ready', async () => {
   //     console.error('Vue Devtools failed to install:', e.toString())
   //   }
   // }
+  const win = new BrowserWindow()
+  win.webContents.session.loadExtension(path.resolve(__dirname, '../.devtools'));
   createWindow()
 })
 

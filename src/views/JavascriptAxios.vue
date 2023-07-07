@@ -9,7 +9,6 @@ import { randqinghua } from '@/api/api'
 export default {
     data() {
         return {
-
         }
     },
     methods: {

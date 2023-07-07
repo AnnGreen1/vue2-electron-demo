@@ -27,5 +27,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### 如何创建一个这样的项目？
 https://juejin.cn/post/7140215651917889567
 
+
+### 如何安装Vue devtools？
+
 ##### tips
 1. `Ctrl`+`Shift`+`I`打开开发者工具
