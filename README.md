@@ -29,6 +29,7 @@ https://juejin.cn/post/7140215651917889567
 
 
 ### 如何安装Vue devtools？
+https://juejin.cn/post/7208005547005837371
 
 ##### tips
 1. `Ctrl`+`Shift`+`I`打开开发者工具
